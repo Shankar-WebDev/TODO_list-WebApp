@@ -1,16 +1,18 @@
-export default class ToDolist {
-  constractor() {
+export default class ToDoList {
+  constructor() {
     this._list = [];
   }
 
   getList() {
     return this._list;
   }
+
   clearList() {
     this._list = [];
   }
-  addItemsTolist(itemObj) {
-    this._listpush(itemObj);
+
+  addItemToList(itemObj) {
+    this._list.push(itemObj);
   }
 
   removeItemFromList(id) {

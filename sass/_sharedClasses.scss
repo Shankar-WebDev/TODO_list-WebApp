@@ -1,4 +1,4 @@
-.button{
+.button {
     width: 15%;
     min-width: 48px;
     min-height: 48px;
@@ -9,13 +9,14 @@
 }
 
 
-.button:hover{
+.button:hover {
     cursor: pointer;
 
 }
 
-.button:hover, .button:focus{
+.button:hover,
+.button:focus {
     filter: brightness(120%);
-    box-shadow: 4px 2px 5px #141414;
+    box-shadow: 4px 2px 5px #d7d7d7;
 
 }

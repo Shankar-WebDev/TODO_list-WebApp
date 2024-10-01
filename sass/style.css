@@ -47,9 +47,10 @@ section {
   cursor: pointer;
 }
 
-.button:hover, .button:focus {
+.button:hover,
+.button:focus {
   filter: brightness(120%);
-  box-shadow: 4px 2px 5px #141414;
+  box-shadow: 4px 2px 5px #d7d7d7;
 }
 
 .newItemEntry {
@@ -132,4 +133,10 @@ section {
 }
 .listContainer .item label {
   font-size: 1.1rem;
+}
+
+.confirmation {
+  position: absolute;
+  left: -100000px;
+  margin-top: 100px;
 }/*# sourceMappingURL=style.css.map */

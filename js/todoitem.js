@@ -7,14 +7,16 @@ export default class ToDoItem {
   getId() {
     return this._id;
   }
-  setId() {
+
+  setId(id) {
     this._id = id;
   }
 
   getItem() {
     return this._item;
   }
+
   setItem(item) {
-    this_item = item;
+    this._item = item;
   }
 }
